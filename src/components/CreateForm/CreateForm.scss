@@ -1,0 +1,29 @@
+.page{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+    &__fieldset {
+        border: none;
+        box-shadow: none;
+        input{
+            height: 30px;
+            width: 250px;
+        }
+    }
+
+    &__error {
+        color: red;
+        margin: 5px 0 0 0;
+    }
+
+}
